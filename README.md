@@ -6,3 +6,7 @@ This repository contains a collection of frontend web development projects built
   
 <h3>2. Counter_web </h3>
   Live link - https://6463be449ec4910df36320c5--merry-crostata-08952d.netlify.app/
+
+<h2>Milestone_Assignment-1</h2>
+<h3>3. Passowrd_validator</h3>
+  Live link - https://6466206dfbbafe0c72c119bf--leafy-bavarois-8ee4e8.netlify.app/
