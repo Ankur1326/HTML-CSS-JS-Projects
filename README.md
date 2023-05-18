@@ -13,3 +13,6 @@ This repository contains a collection of frontend web development projects built
 
 <h3>4. Simple_calculator</h3>
   Live link - https://64664d04d4fc282223322353--lighthearted-beignet-700f24.netlify.app/
+
+<h3>5. color_mixer</h3>
+  Live link - https://6466675ab494013a353ba7e6--fabulous-rugelach-02b3c5.netlify.app/
