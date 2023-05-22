@@ -2,7 +2,7 @@ let count = 0;
 let display = document.querySelector(".display");
 
 // for decrement 
-function decBYOne() { 
+function incBYOne() { 
     if(count < 10) {
         count++;
         display.innerText = count;
@@ -12,8 +12,9 @@ function decBYOne() {
     }
 }
 
+
 // for increment 
-function incBYOne() {
+function decBYOne() {
     if (count > 0) {
         count--;
         display.innerText = count;
