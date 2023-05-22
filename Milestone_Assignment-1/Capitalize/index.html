@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitalize</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.3rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            padding: 50px;
+            background-color: rgb(160, 158, 183);
+            border-radius: 10px;
+        }
+        .display {
+            width: 200px;
+            height: 50px;
+            border: 1px solid gray;
+            text-align: center;
+        }
+        .btn_and_display {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .btn_and_display input {
+            padding: 7px 15px;
+            font-size: 1.3rem;
+            border: none;
+            border-radius: 8px;
+            background-color: rgb(129, 219, 196);
+        }
+        .btn_and_display .display {
+            background-color: white;
+        }
+        input {
+            padding: 5px 10px;
+            font-size: 1.3rem;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="name">Enter Your Name : <input type="text" name="name" id="name"></label>
+        <div class="btn_and_display">
+            <input type="button" value="Click Here">
+            <div class="display"></div>
+        </div>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
