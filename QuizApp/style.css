@@ -19,7 +19,7 @@ html {
     background-color: hsl(206, 92%, 94%);
 }
 .inner-div {
-    width: 40vw;
+    width: 500px;
     background-color: #fff;
     padding: 3rem 8rem;
     border-radius: 1rem;
@@ -78,3 +78,22 @@ input {
     background-color: #38c29b;
     color: #fff;
 }
+
+
+@media screen and (max-width: 500px) {
+    .inner-div {
+        width: 400px;
+        background-color: #fff;
+        padding: 2rem 4rem;
+    }
+    .inner-div h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        margin: 1rem 0 4rem 0;
+    }
+    .inner-div li {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        list-style: none;
+    }
+  }
