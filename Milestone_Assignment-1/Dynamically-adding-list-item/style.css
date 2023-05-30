@@ -1,0 +1,61 @@
+/* import google font -  Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    /* font-size: 62%; */
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 2rem;
+}
+.container {
+    width: 70vw;
+    box-shadow: 0px 6px 15px 0px rgba(0,0,0,0.4),0px 10px 15px -3px rgba(0,0,0,0.1);
+    height: auto;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+}
+button {
+    padding: .6rem 3rem;
+    font-size: 1.2rem;
+    margin-right: 1.7rem;
+    border: none;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+}
+button:hover {
+    opacity: .8;
+}
+button:nth-child(1) {
+    background-color: rgb(102, 214, 102);
+}
+button:nth-child(2) {
+    background-color: rgb(208, 103, 77);
+}
+.lists {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+h2 {
+    font-size: 2rem;
+}
+
+/* styling elements inside of script file  */
+li {
+    margin: 1rem 0;
+    list-style: none;
+}
+li i {
+    margin-right: 1rem;
+}
