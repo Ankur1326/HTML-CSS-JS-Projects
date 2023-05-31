@@ -59,7 +59,7 @@ loadQuestion(questionCount); // when page reload so loadQuestion funciotn automa
 getCheckAnswer = () => {
     let answer;
     answers.forEach((currentAnsElem) => {
-        if(currentAnsElem.checked){
+        if (currentAnsElem.checked) {
             answer = currentAnsElem.id
         }
     })
@@ -76,12 +76,12 @@ const options = document.querySelectorAll("label")
 let score = 0;
 submit.addEventListener('click', () => {
     const checkedAnswer = getCheckAnswer();
-    if(checkedAnswer === quizDB[questionCount].ans) {
+    if (checkedAnswer === quizDB[questionCount].ans) {
         score++;
     }
     questionCount++;
     resetInputClick();
-    if(questionCount < quizDB.length) {
+    if (questionCount < quizDB.length) {
         loadQuestion(questionCount);
     }
     else {
@@ -89,5 +89,6 @@ submit.addEventListener('click', () => {
             <h3>You scored ${score}/${quizDB.length} ✌️ </h3>
             <button class="btn" onclick="location.reload()" >Play Again</button>
         `;
-        showScore.classList.remove('scoreArea')
-}})
+        showScore.classList.remove('scoreArea');
+    }
+})
