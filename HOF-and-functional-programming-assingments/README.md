@@ -8,9 +8,9 @@ This repo contains a Six front end projects. Each project is contained in its ow
 
 <hr />
 
-<h3>given projects contains only JavaScript file</h3>
+<h3>Given four projects contains only JavaScript file</h3>
 
-<h4>Build-a-feature-for-store's-inventory</h4>
-<h4>Filtering-and-Capitalizing-Books-Published-After-201</h4>
-<h4>Random-number-generator-with-delay-and-progres</h4>
-<h4>Reverse-string</h4>
+<h4>1. Reverse-string</h4>
+<h4>2. Build-a-feature-for-store's-inventory</h4>
+<h4>3. Filtering-and-Capitalizing-Books-Published-After-201</h4>
+<h4>4. Random-number-generator-with-delay-and-progres</h4>
