@@ -1,0 +1,88 @@
+/* import google font -  Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --main-color: #03a1fc;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 10vh;
+    overflow: hidden;
+    background-image: linear-gradient(#fff, #54ffeb);
+}
+
+.todo_container {
+    width: 550px;
+    height: auto;
+    background-color: #ffffff;
+    /* padding: 10px; */
+    position: relative;
+    padding: 1rem;
+    padding: 4.5rem 1rem;
+}
+.todo_container::before {
+    position: absolute;
+    content: "TO-DO LIST";
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    background-color: var(--main-color);
+    color: white;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.3rem;
+    /* color: var(--main-color); */
+    border: none;
+    border: 2px solid var(--main-color);
+    border-radius: 3px;
+}
+input[type="button"] {
+    height: 47px;
+    font-size: 1.8rem;
+    border: none;
+    width: 99px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+ul {
+    padding: 1.6rem 2rem 0rem 2rem;
+}
+ul li {
+    margin: 1rem 0;
+    border: 1px solid var(--main-color);
+    padding: 10px;
+    list-style: none;
+    font-size: 1.4rem;
+    position: relative;
+}
+
+.deleteBtn {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+}
+
+.deleteBtn i {
+    font-size: 2rem;
+    padding: 8px 2.4rem;
+    background-color: var(--main-color);
+    color: #fff;
+}
